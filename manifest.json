@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+ 
+  "name": "Clogle",
+  "description": "Close google tabs by short key",
+  "version": "1.0",
+  "browser_action": {
+   "default_icon": "icon.png",
+   "default_popup": "popup.html"
+  },
+  "permissions": [
+   "activeTab",
+   "tabs"
+   ],
+  "commands": {
+          "toggle-feature": {
+            "suggested_key": {
+              "default": "Ctrl+Shift+0"
+            },
+            "description": "Toggle feature foo",
+            "global": true
+          }
+        }
+}
